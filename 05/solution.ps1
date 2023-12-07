@@ -1,4 +1,4 @@
-$inputTxt =  Get-Content -Path .\input.txt
+$inputTxt =  Get-Content -Path .\input2.txt
 
 $seeds = $inputTxt[0]
 
@@ -57,4 +57,6 @@ for ($i = 0; $i -lt $indices.Count; $i++){
 
     }
 }
+Write-Host $seeds
+Write-Host $indices
 Write-Host $lowest
